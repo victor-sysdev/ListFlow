@@ -1,26 +1,35 @@
 📦 ListFlow
-Sistema de gerenciamento de produtos e controle de estoque
+Organize seus produtos. Simplifique sua gestão.
 
-O ListFlow é uma aplicação web desenvolvida em Python utilizando Flask e SQLite. Seu objetivo é facilitar o gerenciamento de produtos, permitindo cadastrar, visualizar e excluir itens de um estoque através de uma interface simples, moderna e intuitiva.
+O ListFlow é um sistema web de gerenciamento de produtos desenvolvido com Python e Flask. A aplicação permite cadastrar, visualizar e excluir produtos, utilizando SQLite para armazenar os dados.
 
-🚀 Tecnologias utilizadas
-Python 3.14 — Linguagem de programação.
-Flask — Framework web para Python.
-SQLite3 — Banco de dados relacional.
-HTML5 — Estrutura das páginas.
-CSS3 — Estilização e responsividade.
-Jinja2 — Renderização dinâmica de páginas HTML.
+O projeto foi desenvolvido com foco no aprendizado de desenvolvimento web, organização de código e operações CRUD.
+
+🖥️ Tecnologias
+Tecnologia	Utilização
+🐍 Python	Linguagem principal
+⚡ Flask	Framework web
+🗄️ SQLite	Banco de dados
+🌐 HTML5	Estrutura das páginas
+🎨 CSS3	Estilização
+🔧 Jinja2	Templates dinâmicos
+🔀 Git	Controle de versão
 ✨ Funcionalidades
 Cadastro de produtos.
 Listagem de produtos.
 Exclusão de produtos.
-Armazenamento de dados com SQLite.
-Dashboard para visualização do estoque.
-Interface personalizada e responsiva.
-Edição de produtos.
-Pesquisa de produtos.
-Relatório de estoque.
-📁 Estrutura do projeto
+Integração com banco de dados SQLite.
+Dashboard personalizado.
+Interface moderna com tema escuro.
+Layout responsivo.
+🔜 Próximas funcionalidades
+Editar produtos.
+Pesquisar produtos.
+Controle de quantidade em estoque.
+Cálculo do valor total do estoque.
+Sistema de login.
+Relatórios de produtos.
+📂 Estrutura do projeto
 text
 ListFlow/
 │
@@ -41,12 +50,12 @@ ListFlow/
 │
 └── README.md
 
-⚙️ Como executar o projeto
+⚙️ Instalação e execução
 1. Clone o repositório
 bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/victor-sysdev/ListFlow.git
 
-2. Entre na pasta
+2. Acesse a pasta
 bash
 cd ListFlow
 
@@ -54,7 +63,7 @@ cd ListFlow
 bash
 pip install Flask
 
-4. Execute a aplicação
+4. Execute o projeto
 bash
 python app.py
 
@@ -64,44 +73,48 @@ http://127.0.0.1:5000/
 
 🗄️ Banco de dados
 
-O projeto utiliza SQLite3 para armazenar os produtos.
+O ListFlow utiliza SQLite3 para armazenar os produtos.
 
-A tabela produtos possui os seguintes campos:
+A tabela principal é chamada produtos e possui os seguintes campos:
 
 Campo	Tipo	Descrição
 id	INTEGER	Identificador único
 nome	TEXT	Nome do produto
 valor	REAL	Valor do produto
 
-A tabela é criada automaticamente quando a aplicação é iniciada.
+A tabela é criada automaticamente durante a inicialização da aplicação.
 
-🎨 Interface
+🎨 Identidade visual
 
-O ListFlow possui uma interface moderna com:
+O ListFlow possui uma interface desenvolvida com:
 
 Tema escuro.
-Identidade visual personalizada.
-Detalhes em roxo e azul.
-Dashboard de produtos.
-Formulário de cadastro.
-Layout responsivo.
-🎯 Objetivo do projeto
+Tons de roxo e azul.
+Dashboard intuitivo.
+Formulário de cadastro personalizado.
+Tabelas para visualização dos produtos.
+Design responsivo.
+🎯 Objetivo
 
-O ListFlow foi desenvolvido como projeto de aprendizado e prática de desenvolvimento web com Python, explorando conceitos como:
+Este projeto tem como objetivo praticar e desenvolver conhecimentos em:
 
-Desenvolvimento de aplicações web com Flask.
-Arquitetura MVC (Models e Controllers).
-Operações CRUD.
+Python e Flask.
+Desenvolvimento de aplicações web.
+Operações CRUD (Create, Read, Update e Delete).
 Integração com banco de dados SQLite.
-Criação de interfaces com HTML e CSS.
-Organização e estruturação de projetos Python.
-📌 Próximas melhorias
-Implementar edição de produtos.
-Adicionar sistema de pesquisa.
-Criar controle de quantidade em estoque.
-Implementar autenticação de usuários.
-Adicionar relatórios e indicadores.
+Organização de projetos com Models e Controllers.
+HTML, CSS e templates Jinja2.
+Controle de versão com Git e GitHub.
+👨‍💻 Desenvolvedor
 
-Desenvolvido com Python, Flask e SQLite.
+Victor Merencio
 
-ListFlow — Organize seus produtos. Simplifique sua gestão.
+GitHub: @victor-sysdev
+
+<p align="center">
+Desenvolvido com 🐍 Python, ⚡ Flask e 🗄️ SQLite.
+</p>
+
+<p align="center">
+**ListFlow — Organize seus produtos. Simplifique sua gestão.**
+</p>
