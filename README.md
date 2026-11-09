@@ -1,35 +1,29 @@
-📦 ListFlow
-Organize seus produtos. Simplifique sua gestão.
+ListFlow
 
-O ListFlow é um sistema web de gerenciamento de produtos desenvolvido com Python e Flask. A aplicação permite cadastrar, visualizar e excluir produtos, utilizando SQLite para armazenar os dados.
+Sistema de gerenciamento de produtos e controle de estoque.
 
-O projeto foi desenvolvido com foco no aprendizado de desenvolvimento web, organização de código e operações CRUD.
+O ListFlow é uma aplicação web desenvolvida com Python e Flask, que permite gerenciar produtos de maneira simples e organizada.
 
-🖥️ Tecnologias
-Tecnologia	Utilização
-🐍 Python	Linguagem principal
-⚡ Flask	Framework web
-🗄️ SQLite	Banco de dados
-🌐 HTML5	Estrutura das páginas
-🎨 CSS3	Estilização
-🔧 Jinja2	Templates dinâmicos
-🔀 Git	Controle de versão
-✨ Funcionalidades
+Sobre o projeto
+
+O objetivo do projeto é desenvolver um sistema de controle de produtos, utilizando operações CRUD e armazenamento de dados com SQLite.
+
+Tecnologias utilizadas
+Python 3.14
+Flask
+SQLite3
+HTML5
+CSS3
+Jinja2
+Git e GitHub
+Funcionalidades
 Cadastro de produtos.
 Listagem de produtos.
 Exclusão de produtos.
-Integração com banco de dados SQLite.
+Armazenamento de dados no SQLite.
 Dashboard personalizado.
-Interface moderna com tema escuro.
-Layout responsivo.
-🔜 Próximas funcionalidades
-Editar produtos.
-Pesquisar produtos.
-Controle de quantidade em estoque.
-Cálculo do valor total do estoque.
-Sistema de login.
-Relatórios de produtos.
-📂 Estrutura do projeto
+Interface responsiva.
+Estrutura do projeto
 text
 ListFlow/
 │
@@ -50,71 +44,58 @@ ListFlow/
 │
 └── README.md
 
-⚙️ Instalação e execução
+Como executar o projeto
+
 1. Clone o repositório
+
 bash
 git clone https://github.com/victor-sysdev/ListFlow.git
 
-2. Acesse a pasta
+
+2. Entre na pasta
+
 bash
 cd ListFlow
 
-3. Instale as dependências
+
+3. Instale o Flask
+
 bash
 pip install Flask
 
-4. Execute o projeto
+
+4. Execute a aplicação
+
 bash
 python app.py
 
+
 5. Acesse no navegador
-text
+
 http://127.0.0.1:5000/
 
-🗄️ Banco de dados
+Banco de dados
 
-O ListFlow utiliza SQLite3 para armazenar os produtos.
+O projeto utiliza SQLite3.
 
-A tabela principal é chamada produtos e possui os seguintes campos:
+A tabela produtos possui três campos:
 
-Campo	Tipo	Descrição
-id	INTEGER	Identificador único
-nome	TEXT	Nome do produto
-valor	REAL	Valor do produto
+id: identificador do produto.
+nome: nome do produto.
+valor: preço do produto.
 
-A tabela é criada automaticamente durante a inicialização da aplicação.
+A tabela é criada automaticamente pela aplicação.
 
-🎨 Identidade visual
-
-O ListFlow possui uma interface desenvolvida com:
-
-Tema escuro.
-Tons de roxo e azul.
-Dashboard intuitivo.
-Formulário de cadastro personalizado.
-Tabelas para visualização dos produtos.
-Design responsivo.
-🎯 Objetivo
-
-Este projeto tem como objetivo praticar e desenvolver conhecimentos em:
-
-Python e Flask.
-Desenvolvimento de aplicações web.
-Operações CRUD (Create, Read, Update e Delete).
-Integração com banco de dados SQLite.
-Organização de projetos com Models e Controllers.
-HTML, CSS e templates Jinja2.
-Controle de versão com Git e GitHub.
-👨‍💻 Desenvolvedor
+Melhorias futuras
+Edição de produtos.
+Pesquisa de produtos.
+Controle de quantidade.
+Relatórios de estoque.
+Autenticação de usuários.
+Desenvolvedor
 
 Victor Merencio
 
-GitHub: @victor-sysdev
+GitHub: victor-sysdev
 
-<p align="center">
-Desenvolvido com 🐍 Python, ⚡ Flask e 🗄️ SQLite.
-</p>
-
-<p align="center">
-**ListFlow — Organize seus produtos. Simplifique sua gestão.**
-</p>
+ListFlow — Organize seus produtos. Simplifique sua gestão.
